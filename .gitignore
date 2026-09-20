@@ -1,0 +1,40 @@
+# ---- 密钥与凭据（最高优先级，绝不提交）----
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+id_ecdsa*
+*.ppk
+.env
+.env.*
+*.token
+credentials
+credentials.*
+*secret*
+*password*
+*.kdbx
+
+# ---- 系统与编辑器 ----
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/settings.json
+*.swp
+*~
+
+# ---- 依赖与构建产物 ----
+node_modules/
+__pycache__/
+*.pyc
+dist/
+build/
+*.log
+
+# ---- 压缩包与临时文件 ----
+*.zip
+*.rar
+*.7z
+*.tmp
+*.bak
